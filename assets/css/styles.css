@@ -4,7 +4,7 @@ body {
   background-color: var(--bs-secondary-text-emphasis);
 }
 
-#jumbo-div {
+.jumbo-div {
   padding: 36px;
   text-align: center;
   position: relative;
@@ -18,7 +18,7 @@ body {
   text-shadow: var(--bs-form-invalid-color);
 }
 
-#jumbo-div img {
+.jumbo-div img {
   position: absolute;
   top: 0;
   left: 0;
@@ -42,7 +42,59 @@ body {
 }
 
 .flush-paragraph {
-  max-width: 701px;
+  /*max-width: 701px;*/
   margin: 0 auto;
+}
+
+.row {
+  padding-top: 10px;
+}
+
+p {
+}
+
+h2 {
+  font-: cookie;
+}
+
+.navbar-brand {
+  font-family: 'Cookie';
+  font-size: 35px;
+  margin: 0px;
+  padding: 0px 20px 0px 0px;
+}
+
+.navbar-brand span {
+  color: #5383d3;
+}
+
+#services-div {
+  /*width: 90%;*/
+  /*text-align: center;*/
+  /*object-position: center;*/
+  margin: 27px 5%;
+}
+
+#services-card-div {
+  margin: 17px 4%;
+  height: 100px;
+}
+
+#big-contact-button {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  font-size: 53px;
+  font-weight: bold;
+  box-shadow: none;
+}
+
+#button-container {
+  height: 120px;
+  text-align: center;
+}
+
+#mission {
+  margin-top: 44px;
 }
 
